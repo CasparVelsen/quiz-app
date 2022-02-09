@@ -1,0 +1,33 @@
+.cards__header {
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+.cards {
+  background: rgb(52, 90, 128);
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px 20px;
+  grid-template-columns: repeat(auto-fit);
+  grid-template-rows: repeat(4, 50px);
+}
+
+.cards__item1 {
+  grid-column: 2/4;
+  text-align: center;
+}
+
+.cards__item2 {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.cards__item3 {
+  grid-column: 2/4;
+}
+
+.cards__item4 {
+  grid-column: 1/2;
+}
