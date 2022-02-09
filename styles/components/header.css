@@ -1,0 +1,14 @@
+.header {
+  background: rgb(200, 200, 200);
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 0px 1px 5px;
+}
+
+.header__title {
+  color: rgb(52, 90, 128);
+  padding: 15px;
+  font-family: Amatic SC;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: rgb(110, 110, 110) 0px 2px 6px;
+}
