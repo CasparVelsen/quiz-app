@@ -1,5 +1,5 @@
 .header {
-  background: rgb(200, 200, 200);
+  background: rgb(52, 90, 128);
   position: fixed;
   top: 0;
   width: 100%;
@@ -8,9 +8,9 @@
 }
 
 .header__title {
-  color: rgb(52, 90, 128);
+  color: rgb(249, 249, 249);
   font-family: Londrina Solid;
   font-size: 3.5rem;
   text-align: center;
-  text-shadow: rgb(110, 110, 110) 0px 2px 6px;
+  text-shadow: rgb(0, 0, 0) 0px 2px 6px;
 }
