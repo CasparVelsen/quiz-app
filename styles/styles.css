@@ -6,6 +6,7 @@
 @import url(./components/header.css);
 @import url(./components/link.css);
 @import url(./components/utility.css);
+@import url(./components/main.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap");
