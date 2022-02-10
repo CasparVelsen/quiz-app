@@ -1,0 +1,9 @@
+.cards__tags:hover {
+  background-color: rgb(168, 167, 167);
+  color: white;
+}
+
+.cards__answer-button:hover {
+  background: rgb(138, 171, 187);
+  color: white;
+}
