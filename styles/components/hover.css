@@ -6,4 +6,13 @@
 .cards__answer-button:hover {
   background: rgb(138, 171, 187);
   color: white;
+  transform: scale(1.1);
+}
+
+.cards__bookmark:hover {
+  transform: scale(1.1);
+}
+
+.navigation__icons:hover {
+  transform: scale(1.1);
 }

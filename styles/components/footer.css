@@ -5,11 +5,13 @@
 }
 
 .footer__navigation {
-  margin: 0px;
-  display: flex;
-  justify-content: space-between;
+  margin: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navigation__icons {
+  padding: 5px;
 }

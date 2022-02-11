@@ -40,6 +40,8 @@
   height: 40px;
   background: rgb(255, 146, 36);
   border-radius: 50px;
+  font-family: Poppins;
+  font-weight: bolder;
   position: relative;
   bottom: -8px;
 }
@@ -47,15 +49,15 @@
 .cards__tags {
   background: rgb(192, 192, 192);
   border-radius: 5px;
-  padding-top: 3px;
-  padding-bottom: 4px;
   color: rgb(52, 90, 128);
+  font-family: Poppins;
+  font-size: 12px;
   height: fit-content;
   width: fit-content;
   justify-self: center;
 }
 
-.cards__bookmark--absolute {
+.cards__bookmark {
   height: 45px;
   position: absolute;
   top: -5px;
