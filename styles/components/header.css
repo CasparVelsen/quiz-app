@@ -1,16 +1,14 @@
 .header {
   background: rgb(52, 90, 128);
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px;
 }
 
 .header__title {
   color: rgb(249, 249, 249);
   font-family: Londrina Solid;
-  text-align: center;
   text-shadow: rgb(0, 0, 0) 0px 2px 6px;
-  grid-column: 2/4;
-  position: relative;
-  bottom: 18px;
 }

@@ -1,3 +1,11 @@
 .main--scrolling {
   overflow-y: auto;
 }
+
+.cards--flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+}
+}
