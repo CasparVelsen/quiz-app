@@ -44,6 +44,7 @@
   font-weight: bolder;
   position: relative;
   bottom: -8px;
+  border: none;
 }
 
 .cards__tags {
