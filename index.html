@@ -11,9 +11,10 @@
 
   <body>
     <header class="header">
-      <h1 class="header__title">Quiz App</h1>
+      <h1 class="header__title">Quizzen</h1>
     </header>
-    <main class="main--scrolling">
+
+    <main data-page="home" class="main--scrolling">
       <h2 class="cards__header">test your knowledge</h2>
       <div class="cards--flex">
         <section class="cards">
@@ -82,11 +83,69 @@
           />
         </section>
       </div>
-      <br />
     </main>
+
+    <main data-page="bookmarks" class="hidden main--scrolling">
+      <h2 class="cards__header">Your saved questions:</h2>
+      <div class="cards--flex">
+        <section class="cards">
+          <h3 class="cards__title cards__item1">Question:</h3>
+          <p class="cards__question cards__item2">
+            Here is space for a question?
+          </p>
+          <button class="cards__answer-button cards__item3">Show answer</button>
+          <button class="cards__tags cards__item4">#tag1</button>
+          <button class="cards__tags cards__item5">#tag2</button>
+          <button class="cards__tags cards__item6">#tag3</button>
+          <button class="cards__tags cards__item7">#tag4</button>
+          <img
+            class="cards__bookmark--active"
+            src="./images/bookmark-icon.png"
+            alt="bookmark"
+          />
+        </section>
+
+        <section class="cards">
+          <h3 class="cards__title cards__item1">Question 2:</h3>
+          <p class="cards__question cards__item2">
+            Here is space for another question?
+          </p>
+          <button class="cards__answer-button cards__item3">Show answer</button>
+          <button class="cards__tags cards__item4">#tag1</button>
+          <button class="cards__tags cards__item5">#tag2</button>
+          <button class="cards__tags cards__item6">#tag3</button>
+          <button class="cards__tags cards__item7">#tag4</button>
+          <img
+            class="cards__bookmark--active"
+            src="./images/bookmark-icon.png"
+            alt="bookmark"
+          />
+        </section>
+        <section class="cards">
+          <h3 class="cards__title cards__item1">Question 3:</h3>
+          <p class="cards__question cards__item2">
+            Here is space for a next question?
+          </p>
+          <button class="cards__answer-button cards__item3">Show answer</button>
+          <button class="cards__tags cards__item4">#tag1</button>
+          <button class="cards__tags cards__item5">#tag2</button>
+          <button class="cards__tags cards__item6">#tag3</button>
+          <button class="cards__tags cards__item7">#tag4</button>
+          <img
+            class="cards__bookmark--active"
+            src="./images/bookmark-icon.png"
+            alt="bookmark"
+          />
+        </section>
+      </div>
+    </main>
+    </main>
+    <main data-page="create" class="hidden main--scrolling"></main>
+    <main data-page="profile" class="hidden main--scrolling"></main>
+
     <footer class="footer">
       <nav class="footer__navigation">
-        <span class="navigation__icons">
+        <button class="navigation__icons active active" data-nav="home">
           <img
             class="icon__home"
             src="./images/icon-home.png"
@@ -94,8 +153,8 @@
             width="48px"
             height="48px"
           />
-        </span>
-        <span class="navigation__icons">
+        </button>
+        <button class="navigation__icons active" data-nav="bookmarks">
           <img
             class="icon__bookmark"
             src="./images/icon-bookmark.png"
@@ -103,8 +162,8 @@
             width="48px"
             height="48px"
           />
-        </span>
-        <span class="navigation__icons">
+        </button>
+        <button class="navigation__icons active" data-nav="create">
           <img
             class="icon__add"
             src="./images/icon-add.png"
@@ -112,15 +171,16 @@
             width="48px"
             height="48px"
           />
-        </span>
-        <span class="navigation__icons">
+        </button>
+        <button class="navigation__icons active" data-nav="profile">
           <img
             class="icon__profile"
             src="./images/profile-icon.png"
             alt="profile"
             width="45px"
             height="45px"
-        /></span>
+          />
+        </button>
       </nav>
     </footer>
   </body>

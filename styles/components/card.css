@@ -66,6 +66,14 @@
   right: 0;
 }
 
+.cards__bookmark--active {
+  height: 45px;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  filter: invert(100%);
+}
+
 .cards__item1 {
   grid-column: 2/4;
 }
