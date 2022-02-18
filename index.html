@@ -27,11 +27,13 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
 
         <section class="cards">
@@ -44,11 +46,13 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
         <section class="cards">
           <h3 class="cards__title cards__item1">Question 3:</h3>
@@ -60,11 +64,13 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
         <section class="cards">
           <h3 class="cards__title cards__item1">Question 3:</h3>
@@ -76,11 +82,13 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
       </div>
     </main>
@@ -98,11 +106,13 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark--active"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark--active"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
 
         <section class="cards">
@@ -115,11 +125,13 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark--active"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark--active"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
         <section class="cards">
           <h3 class="cards__title cards__item1">Question 3:</h3>
@@ -131,35 +143,42 @@
           <button class="cards__tags cards__item5">#tag2</button>
           <button class="cards__tags cards__item6">#tag3</button>
           <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark--active"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
+          <button>
+            <img
+              class="cards__bookmark--active"
+              src="./images/bookmark-icon.png"
+              alt="bookmark"
+            />
+          </button>
         </section>
       </div>
     </main>
 
     <main data-page="create" class="hidden main--scrolling">
       <h2 class="cards__header">create your own card here:</h2>
-      <div class="cards--flex">
-        <section class="cards">
-          <h3 class="cards__title cards__item1">Question:</h3>
-          <p class="cards__question cards__item2">
-            Here is space for a question?
-          </p>
-          <button class="cards__answer-button cards__item3">Show answer</button>
-          <button class="cards__tags cards__item4">#tag1</button>
-          <button class="cards__tags cards__item5">#tag2</button>
-          <button class="cards__tags cards__item6">#tag3</button>
-          <button class="cards__tags cards__item7">#tag4</button>
-          <img
-            class="cards__bookmark"
-            src="./images/bookmark-icon.png"
-            alt="bookmark"
-          />
-        </section>
-      </div>
+      <section class="cards__create">
+        <h3 class="cards__title">Question:</h3>
+        <textarea
+          id="create__question"
+          rows="3"
+          placeholder="your question:"
+        ></textarea>
+
+        <h3 class="cards__title">Answer:</h3>
+        <textarea
+          id="create__question"
+          rows="3"
+          placeholder="your answer:"
+        ></textarea>
+        <h3 class="cards__title">Tags:</h3>
+        <div class="create__tags--flex">
+          <textarea class="create__tags" placeholder="tag1:"></textarea>
+          <textarea class="create__tags" placeholder="tag2:"></textarea>
+          <textarea class="create__tags" placeholder="tag3:"></textarea>
+          <textarea class="create__tags" placeholder="tag4:"></textarea>
+        </div>
+        <button class="create__submit-button" type="submit">Submit</button>
+      </section>
     </main>
 
     <main data-page="profile" class="hidden main--scrolling"></main>
