@@ -1,16 +1,65 @@
 .profile__info {
   background: rgb(52, 90, 128);
   box-shadow: 0px 1px 5px;
+  margin-top: 30px;
   width: 95%;
+  border-radius: 20px;
   font-family: Poppins;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .profile__picture {
   border-radius: 50%;
-  height: 150px;
+  height: 100px;
+  width: 100px;
+}
+
+.profile__title {
+  color: white;
+}
+
+#create__bio {
+  background-color: rgb(64, 100, 136);
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile__skills {
+  text-align: center;
+}
+
+.skills__tags {
+  background-color: rgb(128, 128, 128);
+  width: 25%;
+  height: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.profile__save-button {
+  color: white;
+  background-color: rgb(138, 171, 187);
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin: 20px;
+}
+
+.profile__logout-button {
+  color: white;
+  height: 40px;
   width: 150px;
+  background: rgb(255, 146, 36);
+  border-radius: 50px;
+  font-family: Poppins;
+  font-weight: bolder;
 }
