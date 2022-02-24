@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <script defer src="./index.js"></script>
+    <script defer src="./cards.js"></script>
   </head>
 
   <body>
@@ -16,110 +17,13 @@
 
     <main data-page="home" class="main--scrolling">
       <h2 class="cards__header">test your knowledge</h2>
-      <div class="cards--flex">
-        <section class="cards">
-          <h3 class="cards__title">Question:</h3>
-          <p class="cards__question">Here is space for a question?</p>
-          <button data-js="show-answer" class="cards__answer-button">
-            Show answer
-          </button>
-          <div class="cards__answer">
-            <p>Here is space for an answer</p>
-          </div>
-          <div cards__tags>
-            <button class="tags">#tag1</button>
-            <button class="tags">#tag2</button>
-            <button class="tags">#tag3</button>
-            <button class="tags">#tag4</button>
-          </div>
 
-          <button>
-            <img
-              class="cards__bookmark"
-              src="./images/bookmark-icon.png"
-              alt="bookmark"
-            />
-          </button>
-        </section>
-
-        <section class="cards">
-          <h3 class="cards__title">Question:</h3>
-          <p class="cards__question">Here is space for a question?</p>
-          <button data-js="show-answer" class="cards__answer-button">
-            Show answer
-          </button>
-          <div class="cards__answer">
-            <p>Here is space for an answer</p>
-          </div>
-          <div cards__tags>
-            <button class="tags">#tag1</button>
-            <button class="tags">#tag2</button>
-            <button class="tags">#tag3</button>
-            <button class="tags">#tag4</button>
-          </div>
-
-          <button>
-            <img
-              class="cards__bookmark"
-              src="./images/bookmark-icon.png"
-              alt="bookmark"
-            />
-          </button>
-        </section>
-        <section class="cards">
-          <h3 class="cards__title">Question:</h3>
-          <p class="cards__question">Here is space for a question?</p>
-          <button data-js="show-answer" class="cards__answer-button">
-            Show answer
-          </button>
-          <div class="cards__answer">
-            <p>Here is space for an answer</p>
-          </div>
-          <div cards__tags>
-            <button class="tags">#tag1</button>
-            <button class="tags">#tag2</button>
-            <button class="tags">#tag3</button>
-            <button class="tags">#tag4</button>
-          </div>
-
-          <button>
-            <img
-              class="cards__bookmark"
-              src="./images/bookmark-icon.png"
-              alt="bookmark"
-            />
-          </button>
-        </section>
-        <section class="cards">
-          <h3 class="cards__title">Question:</h3>
-          <p class="cards__question">Here is space for a question?</p>
-          <button data-js="show-answer" class="cards__answer-button">
-            Show answer
-          </button>
-          <div class="cards__answer">
-            <p>Here is space for an answer</p>
-          </div>
-          <div cards__tags>
-            <button class="tags">#tag1</button>
-            <button class="tags">#tag2</button>
-            <button class="tags">#tag3</button>
-            <button class="tags">#tag4</button>
-          </div>
-
-          <button>
-            <img
-              class="cards__bookmark"
-              src="./images/bookmark-icon.png"
-              alt="bookmark"
-            />
-          </button>
-        </section>
-      </div>
+      <ul class="cards__list" data-js="cards" role="list"></ul>
     </main>
 
     <main data-page="bookmarks" class="hidden main--scrolling">
       <h2 class="cards__header">Your saved questions:</h2>
-      <div class="cards--flex">
+      <div class="cards__list">
         <section class="cards">
           <h3 class="cards__title">Question:</h3>
           <p class="cards__question">Here is space for a question?</p>
